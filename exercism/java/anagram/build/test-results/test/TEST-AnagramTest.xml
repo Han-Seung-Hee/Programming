@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AnagramTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-03-06T08:32:56" hostname="DESKTOP-29RTF6M" time="0.06">
+  <properties/>
+  <testcase name="testCaseInsensitiveWhenBothAnagramAndSubjectStartWithUpperCaseLetter" classname="AnagramTest" time="0.05"/>
+  <testcase name="testEliminateAnagramSubsets" classname="AnagramTest" time="0.001"/>
+  <testcase name="testAnagramMustUseAllLettersExactlyOnce" classname="AnagramTest" time="0.0"/>
+  <testcase name="testIdenticalWordRepeatedIsNotAnagram" classname="AnagramTest" time="0.0"/>
+  <testcase name="testDetectsMultipleAnagramsWithDifferentCase" classname="AnagramTest" time="0.001"/>
+  <testcase name="testWordsOtherThanThemselvesCanBeAnagrams" classname="AnagramTest" time="0.001"/>
+  <testcase name="testDetectMultipleAnagramsForLongerWord" classname="AnagramTest" time="0.002"/>
+  <testcase name="testDetectMultipleAnagrams" classname="AnagramTest" time="0.001"/>
+  <testcase name="testWordsAreNotAnagramsOfThemselvesCaseInsensitive" classname="AnagramTest" time="0.001"/>
+  <testcase name="testCaseInsensitiveWhenSubjectStartsWithUpperCaseLetter" classname="AnagramTest" time="0.0"/>
+  <testcase name="testCaseInsensitiveWhenAnagramStartsWithUpperCaseLetter" classname="AnagramTest" time="0.001"/>
+  <testcase name="testDetectLongerAnagram" classname="AnagramTest" time="0.001"/>
+  <testcase name="testNoMatches" classname="AnagramTest" time="0.001"/>
+  <testcase name="testEliminateAnagramsWithSameChecksum" classname="AnagramTest" time="0.0"/>
+  <system-out><![CDATA[origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> cashregister
+comp2 >>> aceeghirrsst
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> Carthorse
+comp2 >>> acehorrst
+Carthorse
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> radishes
+comp2 >>> adehirss
+Carthorse
+origin >>> good
+comp1 >>> dgoo
+=============================
+cand >>> dog
+comp2 >>> dgo
+origin >>> good
+comp1 >>> dgoo
+=============================
+cand >>> goody
+comp2 >>> dgooy
+origin >>> tapper
+comp1 >>> aepprt
+=============================
+cand >>> patter
+comp2 >>> aeprtt
+origin >>> go
+comp1 >>> go
+=============================
+cand >>> go Go GO
+comp2 >>>   gggooo
+origin >>> nose
+comp1 >>> enos
+=============================
+cand >>> Eons
+comp2 >>> enos
+Eons
+origin >>> nose
+comp1 >>> enos
+=============================
+cand >>> ONES
+comp2 >>> enos
+Eons
+ONES
+origin >>> listen
+comp1 >>> eilnst
+=============================
+cand >>> Listen
+comp2 >>> eilnst
+origin >>> listen
+comp1 >>> eilnst
+=============================
+cand >>> Silent
+comp2 >>> eilnst
+Silent
+origin >>> listen
+comp1 >>> eilnst
+=============================
+cand >>> LISTEN
+comp2 >>> eilnst
+Silent
+origin >>> allergy
+comp1 >>> aegllry
+=============================
+cand >>> gallery
+comp2 >>> aegllry
+gallery
+origin >>> allergy
+comp1 >>> aegllry
+=============================
+cand >>> ballerina
+comp2 >>> aabeillnr
+gallery
+origin >>> allergy
+comp1 >>> aegllry
+=============================
+cand >>> regally
+comp2 >>> aegllry
+gallery
+regally
+origin >>> allergy
+comp1 >>> aegllry
+=============================
+cand >>> clergy
+comp2 >>> ceglry
+gallery
+regally
+origin >>> allergy
+comp1 >>> aegllry
+=============================
+cand >>> largely
+comp2 >>> aegllry
+gallery
+regally
+largely
+origin >>> allergy
+comp1 >>> aegllry
+=============================
+cand >>> leading
+comp2 >>> adegiln
+gallery
+regally
+largely
+origin >>> master
+comp1 >>> aemrst
+=============================
+cand >>> stream
+comp2 >>> aemrst
+stream
+origin >>> master
+comp1 >>> aemrst
+=============================
+cand >>> pigeon
+comp2 >>> eginop
+stream
+origin >>> master
+comp1 >>> aemrst
+=============================
+cand >>> maters
+comp2 >>> aemrst
+stream
+maters
+origin >>> banana
+comp1 >>> aaabnn
+=============================
+cand >>> BANANA
+comp2 >>> aaabnn
+origin >>> banana
+comp1 >>> aaabnn
+=============================
+cand >>> Banana
+comp2 >>> aaabnn
+origin >>> banana
+comp1 >>> aaabnn
+=============================
+cand >>> banana
+comp2 >>> aaabnn
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> cashregister
+comp2 >>> aceeghirrsst
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> carthorse
+comp2 >>> acehorrst
+carthorse
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> radishes
+comp2 >>> adehirss
+carthorse
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> cashregister
+comp2 >>> aceeghirrsst
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> Carthorse
+comp2 >>> acehorrst
+Carthorse
+origin >>> orchestra
+comp1 >>> acehorrst
+=============================
+cand >>> radishes
+comp2 >>> adehirss
+Carthorse
+origin >>> listen
+comp1 >>> eilnst
+=============================
+cand >>> enlists
+comp2 >>> eilnsst
+origin >>> listen
+comp1 >>> eilnst
+=============================
+cand >>> google
+comp2 >>> eggloo
+origin >>> listen
+comp1 >>> eilnst
+=============================
+cand >>> inlets
+comp2 >>> eilnst
+inlets
+origin >>> listen
+comp1 >>> eilnst
+=============================
+cand >>> banana
+comp2 >>> aaabnn
+inlets
+origin >>> diaper
+comp1 >>> adeipr
+=============================
+cand >>> hello
+comp2 >>> ehllo
+origin >>> diaper
+comp1 >>> adeipr
+=============================
+cand >>> world
+comp2 >>> dlorw
+origin >>> diaper
+comp1 >>> adeipr
+=============================
+cand >>> zombies
+comp2 >>> beimosz
+origin >>> diaper
+comp1 >>> adeipr
+=============================
+cand >>> pants
+comp2 >>> anpst
+origin >>> mass
+comp1 >>> amss
+=============================
+cand >>> last
+comp2 >>> alst
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

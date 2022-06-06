@@ -1,0 +1,212 @@
+str : WHAT'SGOINGON?
+temp : false
+chkCap :: true
+isSaying :: false
+chkNonCap :: false
+chkQue :: true
+onlyCap :: true
+TEST : true
+0str : ZOMGTHE%^*@#$(*^ZOMBIESARECOMING!!11!!1!
+temp : false
+chkCap :: true
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: true
+TEST : false
+str : Tom-ay-to,tom-aaaah-to.
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: false
+onlyCap :: false
+TEST : false
+"str : Endingwith?meansaquestion.
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: false
+onlyCap :: false
+TEST : true
+str : :)?
+temp : false
+chkCap :: false
+isSaying :: false
+chkNonCap :: false
+chkQue :: true
+onlyCap :: false
+TEST : true
+,str : Thisisastatementendingwithwhitespace
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: false
+onlyCap :: false
+TEST : false
+str : Youare,what,like15?
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: true
+onlyCap :: false
+TEST : true
+	str : IHATETHEDENTIST
+	temp : false
+	chkCap :: true
+	isSaying :: false
+	chkNonCap :: false
+	chkQue :: false
+	onlyCap :: true
+	TEST : false
+
+&str : Okayiflikemyspacebarquiteabit?
+
+temp : true
+
+chkCap :: true
+
+isSaying :: false
+
+chkNonCap :: true
+
+chkQue :: true
+
+onlyCap :: false
+
+TEST : true
+str : 
+temp : false
+chkCap :: false
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: false
+TEST : false
+str : hmmmmmmm...
+temp : true
+chkCap :: false
+isSaying :: false
+chkNonCap :: true
+chkQue :: false
+onlyCap :: false
+TEST : false
+str : 										
+temp : false
+chkCap :: false
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: false
+TEST : false
+
+str : 4?
+temp : false
+chkCap :: false
+isSaying :: false
+chkNonCap :: false
+chkQue :: true
+onlyCap :: false
+TEST : true
+str : Hithere!
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: false
+onlyCap :: false
+TEST : false
+str : 
+'Doesthiscryogenicchambermakemelookfat?
+No.
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: false
+onlyCap :: false
+TEST : true
+&str : Wait!Hangon.AreyougoingtobeOK?
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: true
+onlyCap :: false
+TEST : true
+str : WATCHOUT!
+temp : false
+chkCap :: true
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: true
+TEST : false
+.str : Doesthiscryogenicchambermakemelookfat?
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: true
+onlyCap :: false
+TEST : true
+str : 
+	
+temp : false
+chkCap :: false
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: false
+TEST : false
+str : 1,2,3
+temp : false
+chkCap :: false
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: false
+TEST : false
+str : 1,2,3GO!
+temp : false
+chkCap :: true
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: true
+TEST : false
+str : FCECDFCAAB
+temp : false
+chkCap :: true
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: true
+TEST : false
+str : fffbbcbeab?
+temp : true
+chkCap :: false
+isSaying :: false
+chkNonCap :: true
+chkQue :: true
+onlyCap :: false
+TEST : true
+,str : It'sOKifyoudon'twanttogoworkforNASA.
+temp : true
+chkCap :: true
+isSaying :: false
+chkNonCap :: true
+chkQue :: false
+onlyCap :: false
+TEST : false
+str : 
+temp : false
+chkCap :: false
+isSaying :: false
+chkNonCap :: false
+chkQue :: false
+onlyCap :: false
+TEST : false

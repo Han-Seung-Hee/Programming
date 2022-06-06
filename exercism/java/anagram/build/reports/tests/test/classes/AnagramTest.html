@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class AnagramTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class AnagramTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; AnagramTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">14</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.060s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAnagramMustUseAllLettersExactlyOnce</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCaseInsensitiveWhenAnagramStartsWithUpperCaseLetter</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCaseInsensitiveWhenBothAnagramAndSubjectStartWithUpperCaseLetter</td>
+<td class="success">0.050s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCaseInsensitiveWhenSubjectStartsWithUpperCaseLetter</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDetectLongerAnagram</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDetectMultipleAnagrams</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDetectMultipleAnagramsForLongerWord</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDetectsMultipleAnagramsWithDifferentCase</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEliminateAnagramSubsets</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEliminateAnagramsWithSameChecksum</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIdenticalWordRepeatedIsNotAnagram</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoMatches</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWordsAreNotAnagramsOfThemselvesCaseInsensitive</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWordsOtherThanThemselvesCanBeAnagrams</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; cashregister
+comp2 &gt;&gt;&gt; aceeghirrsst
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; Carthorse
+comp2 &gt;&gt;&gt; acehorrst
+Carthorse
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; radishes
+comp2 &gt;&gt;&gt; adehirss
+Carthorse
+origin &gt;&gt;&gt; good
+comp1 &gt;&gt;&gt; dgoo
+=============================
+cand &gt;&gt;&gt; dog
+comp2 &gt;&gt;&gt; dgo
+origin &gt;&gt;&gt; good
+comp1 &gt;&gt;&gt; dgoo
+=============================
+cand &gt;&gt;&gt; goody
+comp2 &gt;&gt;&gt; dgooy
+origin &gt;&gt;&gt; tapper
+comp1 &gt;&gt;&gt; aepprt
+=============================
+cand &gt;&gt;&gt; patter
+comp2 &gt;&gt;&gt; aeprtt
+origin &gt;&gt;&gt; go
+comp1 &gt;&gt;&gt; go
+=============================
+cand &gt;&gt;&gt; go Go GO
+comp2 &gt;&gt;&gt;   gggooo
+origin &gt;&gt;&gt; nose
+comp1 &gt;&gt;&gt; enos
+=============================
+cand &gt;&gt;&gt; Eons
+comp2 &gt;&gt;&gt; enos
+Eons
+origin &gt;&gt;&gt; nose
+comp1 &gt;&gt;&gt; enos
+=============================
+cand &gt;&gt;&gt; ONES
+comp2 &gt;&gt;&gt; enos
+Eons
+ONES
+origin &gt;&gt;&gt; listen
+comp1 &gt;&gt;&gt; eilnst
+=============================
+cand &gt;&gt;&gt; Listen
+comp2 &gt;&gt;&gt; eilnst
+origin &gt;&gt;&gt; listen
+comp1 &gt;&gt;&gt; eilnst
+=============================
+cand &gt;&gt;&gt; Silent
+comp2 &gt;&gt;&gt; eilnst
+Silent
+origin &gt;&gt;&gt; listen
+comp1 &gt;&gt;&gt; eilnst
+=============================
+cand &gt;&gt;&gt; LISTEN
+comp2 &gt;&gt;&gt; eilnst
+Silent
+origin &gt;&gt;&gt; allergy
+comp1 &gt;&gt;&gt; aegllry
+=============================
+cand &gt;&gt;&gt; gallery
+comp2 &gt;&gt;&gt; aegllry
+gallery
+origin &gt;&gt;&gt; allergy
+comp1 &gt;&gt;&gt; aegllry
+=============================
+cand &gt;&gt;&gt; ballerina
+comp2 &gt;&gt;&gt; aabeillnr
+gallery
+origin &gt;&gt;&gt; allergy
+comp1 &gt;&gt;&gt; aegllry
+=============================
+cand &gt;&gt;&gt; regally
+comp2 &gt;&gt;&gt; aegllry
+gallery
+regally
+origin &gt;&gt;&gt; allergy
+comp1 &gt;&gt;&gt; aegllry
+=============================
+cand &gt;&gt;&gt; clergy
+comp2 &gt;&gt;&gt; ceglry
+gallery
+regally
+origin &gt;&gt;&gt; allergy
+comp1 &gt;&gt;&gt; aegllry
+=============================
+cand &gt;&gt;&gt; largely
+comp2 &gt;&gt;&gt; aegllry
+gallery
+regally
+largely
+origin &gt;&gt;&gt; allergy
+comp1 &gt;&gt;&gt; aegllry
+=============================
+cand &gt;&gt;&gt; leading
+comp2 &gt;&gt;&gt; adegiln
+gallery
+regally
+largely
+origin &gt;&gt;&gt; master
+comp1 &gt;&gt;&gt; aemrst
+=============================
+cand &gt;&gt;&gt; stream
+comp2 &gt;&gt;&gt; aemrst
+stream
+origin &gt;&gt;&gt; master
+comp1 &gt;&gt;&gt; aemrst
+=============================
+cand &gt;&gt;&gt; pigeon
+comp2 &gt;&gt;&gt; eginop
+stream
+origin &gt;&gt;&gt; master
+comp1 &gt;&gt;&gt; aemrst
+=============================
+cand &gt;&gt;&gt; maters
+comp2 &gt;&gt;&gt; aemrst
+stream
+maters
+origin &gt;&gt;&gt; banana
+comp1 &gt;&gt;&gt; aaabnn
+=============================
+cand &gt;&gt;&gt; BANANA
+comp2 &gt;&gt;&gt; aaabnn
+origin &gt;&gt;&gt; banana
+comp1 &gt;&gt;&gt; aaabnn
+=============================
+cand &gt;&gt;&gt; Banana
+comp2 &gt;&gt;&gt; aaabnn
+origin &gt;&gt;&gt; banana
+comp1 &gt;&gt;&gt; aaabnn
+=============================
+cand &gt;&gt;&gt; banana
+comp2 &gt;&gt;&gt; aaabnn
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; cashregister
+comp2 &gt;&gt;&gt; aceeghirrsst
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; carthorse
+comp2 &gt;&gt;&gt; acehorrst
+carthorse
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; radishes
+comp2 &gt;&gt;&gt; adehirss
+carthorse
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; cashregister
+comp2 &gt;&gt;&gt; aceeghirrsst
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; Carthorse
+comp2 &gt;&gt;&gt; acehorrst
+Carthorse
+origin &gt;&gt;&gt; orchestra
+comp1 &gt;&gt;&gt; acehorrst
+=============================
+cand &gt;&gt;&gt; radishes
+comp2 &gt;&gt;&gt; adehirss
+Carthorse
+origin &gt;&gt;&gt; listen
+comp1 &gt;&gt;&gt; eilnst
+=============================
+cand &gt;&gt;&gt; enlists
+comp2 &gt;&gt;&gt; eilnsst
+origin &gt;&gt;&gt; listen
+comp1 &gt;&gt;&gt; eilnst
+=============================
+cand &gt;&gt;&gt; google
+comp2 &gt;&gt;&gt; eggloo
+origin &gt;&gt;&gt; listen
+comp1 &gt;&gt;&gt; eilnst
+=============================
+cand &gt;&gt;&gt; inlets
+comp2 &gt;&gt;&gt; eilnst
+inlets
+origin &gt;&gt;&gt; listen
+comp1 &gt;&gt;&gt; eilnst
+=============================
+cand &gt;&gt;&gt; banana
+comp2 &gt;&gt;&gt; aaabnn
+inlets
+origin &gt;&gt;&gt; diaper
+comp1 &gt;&gt;&gt; adeipr
+=============================
+cand &gt;&gt;&gt; hello
+comp2 &gt;&gt;&gt; ehllo
+origin &gt;&gt;&gt; diaper
+comp1 &gt;&gt;&gt; adeipr
+=============================
+cand &gt;&gt;&gt; world
+comp2 &gt;&gt;&gt; dlorw
+origin &gt;&gt;&gt; diaper
+comp1 &gt;&gt;&gt; adeipr
+=============================
+cand &gt;&gt;&gt; zombies
+comp2 &gt;&gt;&gt; beimosz
+origin &gt;&gt;&gt; diaper
+comp1 &gt;&gt;&gt; adeipr
+=============================
+cand &gt;&gt;&gt; pants
+comp2 &gt;&gt;&gt; anpst
+origin &gt;&gt;&gt; mass
+comp1 &gt;&gt;&gt; amss
+=============================
+cand &gt;&gt;&gt; last
+comp2 &gt;&gt;&gt; alst
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 2022. 3. 6. 오후 5:32:56</p>
+</div>
+</div>
+</body>
+</html>
