@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+class p2675 {
 	public static void main(String[] args) throws IOException{
 		// S : input string
 		// R : number of repeat

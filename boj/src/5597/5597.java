@@ -2,7 +2,8 @@ import java.awt.*;
 import java.util.*;
 import java.io.*;
 
-class Main {
+class p5597
+{
 	public static void main(String[] args) throws IOException{
 		ArrayList<Integer> ls = new ArrayList<>();
 		

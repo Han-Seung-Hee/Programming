@@ -1,4 +1,4 @@
-class Main{
+class p4673 {
 	private static final int SIZE = 10000;
 	private static boolean[] flags = new boolean[SIZE+1];
 	private static int d(int n){

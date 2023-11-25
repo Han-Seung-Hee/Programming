@@ -1,8 +1,7 @@
 import java.util.*;
 import java.io.*;
-import java.nio.channels.*;
 
-class Main{
+class p10809 {
 	public static void main(String[] args) throws IOException{
 		/*
 			TASK 1 : 문자열을 하나씩 쪼개서 첫 위치를 찾는다. (ZERO_BASE)

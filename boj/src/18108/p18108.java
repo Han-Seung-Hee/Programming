@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p18108 {
     public static void main(String[] args) {
         int base = 1998-2541;
 

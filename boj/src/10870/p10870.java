@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p10870 {
 
     //get fibonacci number..
 

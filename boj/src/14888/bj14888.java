@@ -21,32 +21,32 @@ class bj14888 {
 	
 	public static void main(String[] args) {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		try{
+		try {
 			N = Integer.parseInt(br.readLine());
 			num = new int[N];
-			
-			StringTokenizer st = new StringTokenizer(br.readLine()," ");
-			for(int i = 0 ; i < N ; i++){
+
+			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+			for (int i = 0; i < N; i++) {
 				num[i] = Integer.parseInt(st.nextToken());
 			}
 
-			st = new StringTokenizer(br.readLine()," ");
-			for(int i = 0 ; i < 4 ; i++){
+			st = new StringTokenizer(br.readLine(), " ");
+			for (int i = 0; i < 4; i++) {
 				operator[i] = Integer.parseInt(st.nextToken());
 			}
-			
+
 			int[] flatOperator = flattening(operator);
-			
+
 			int number = num[0];
-			for(int i = 1 ; i < N ; i++){ // NUMBER START
-				
-				
+			for (int i = 1; i < N; i++) { // NUMBER START
+
+
 			}
-			
-		}catch (Exception e) {
+
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+	}
 	public static int[] flattening(int[] arr){
 		
 

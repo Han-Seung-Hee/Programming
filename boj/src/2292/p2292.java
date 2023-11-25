@@ -12,7 +12,7 @@
 
 import java.io.*;
 
-class Main{
+class p2292 {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

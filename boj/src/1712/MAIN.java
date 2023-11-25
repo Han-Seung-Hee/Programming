@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+class p1712 {
 	public static void main(String[] args) throws IOException{
 		// 뭐가 어찌됐든 기반금액 / (판매가 - 생산단가) 한 정수값보다 한개만 더 팔면 손익분기점임
 		

@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-class Main{
+class p1193 {
     /*
     *  개요 : 무한히 큰 배열에 분수들이 적혀있다.
     *  이때, X번째 분수에 어떤값이 들어가는가?

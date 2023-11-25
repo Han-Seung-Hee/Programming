@@ -1,9 +1,7 @@
 import java.io.*;
 import java.util.*;
-import javax.crypto.spec.*;
-import javax.swing.*;
 
-class Main {
+class p1157 {
 	public static void main(String[] args) throws IOException{
 		// 알파벳 대소문자가 주어진다. 가장 많이 사용된 알파벳이 무엇인지 찾아야 한다.
 		// 대소문자 구분이 없다. -> 대문자 . 소문자 중 하나 잡고 변환한다.

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class p2444 {
 	/*
 	
 	1 - 1 4

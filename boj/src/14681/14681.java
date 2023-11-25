@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class p14681 {
 	public static void main(String[] args) {
 		// find Quadrant
 		Scanner sc = new Scanner(System.in);

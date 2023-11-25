@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Main {
+class p3052 {
 	public static void main(String[] args) throws IOException {
 		Set<Integer> st = new HashSet<>();
 		

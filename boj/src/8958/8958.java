@@ -2,7 +2,8 @@ import java.io.*;
 import java.awt.*;
 import java.util.*;
 
-class Main{
+class p8958
+{
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
